@@ -1,0 +1,34 @@
+{
+    "name": "Cus Action",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "148efc44-65c1-4a38-958d-d389a3178220",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "42bc884c-00be-4666-aa7e-bef344408ad4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "63b728be-eda1-439f-9b1b-183840ef4494",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

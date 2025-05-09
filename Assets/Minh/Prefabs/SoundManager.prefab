@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3482059815029266242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906608753622147279}
+  - component: {fileID: 6326518667653054451}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906608753622147279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3482059815029266242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.56185, y: -4.0428696, z: 15.53225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6326518667653054451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3482059815029266242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9609e01ff6117a2429cb36c04636d90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Run
+    clip: {fileID: 8300000, guid: b0e12fa29b11a0740a96486274521ada, type: 3}
+    volume: 2
+  - name: Swoosh
+    clip: {fileID: 8300000, guid: 66c9e063e08a9634594b58cbd2bf157d, type: 3}
+    volume: 2
+  - name: Background
+    clip: {fileID: 8300000, guid: 99184e11f4cb749439f45a1134d43c78, type: 3}
+    volume: 0.3
+  - name: Allahu
+    clip: {fileID: 8300000, guid: 572aa0d332356c145bbeb4b1c5b9d792, type: 3}
+    volume: 2
+  - name: Rally
+    clip: {fileID: 8300000, guid: 90251f64632d15f458077f00c81bbc50, type: 3}
+    volume: 2
+  - name: Dead
+    clip: {fileID: 8300000, guid: 1e162085cf416e74f8ef5008afef2b12, type: 3}
+    volume: 2

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1006391662036666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4965113119739782}
+  - component: {fileID: 114266115900946412}
+  m_Layer: 0
+  m_Name: SO_Projectile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965113119739782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006391662036666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114266115900946412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006391662036666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049c0557f1797534aa8a073b5e018839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  straightProjectile: 1
+  speed: 20
+  elevation: 1
+  falloffRange: 3
+  useTrajectoryCurve: 1
+  elevationT: 10
+  trajectory:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.4312049
+      outSlope: 0.4312049
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.65
+      value: 0.3
+      inSlope: 0.122593775
+      outSlope: 0.122593775
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.15488964
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.4608617
+      outSlope: -2.4608617
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.05706378
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trailList:
+  - {fileID: 0}
+  lightningRenderers: []
+  arcLength: 0.5
+  arcVariation: 1
+  lightningInaccuracy: 0.5
+  timeOfZap: 0.25
+  randomRange: 1.5
+  lightningWidth: 0.15
+  maxLgtDist: 1.5
+  lines:
+  - {fileID: 0}
+  beamDuration: 0.5
+  startWidth: 0.25
+  effectDuration: 0.5
+  aimCooldown: 0
+  effectShoot:
+    obj: {fileID: 1503176906869836, guid: ba03473dcbf31a44cb8a407076228f8e, type: 3}
+    autoDestroy: 1
+    duration: 0.5
+  effectHit:
+    obj: {fileID: 1888339307800580, guid: 439933d22f2298844a57e463ab5a80a7, type: 3}
+    autoDestroy: 1
+    duration: 1.5
+  shootSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  tgtUnit: {fileID: 0}
+  tgtRadius: 0
+  targetPos: {x: 0, y: 0, z: 0}
+  shootTime: 0
+  shootPoint: {fileID: 0}

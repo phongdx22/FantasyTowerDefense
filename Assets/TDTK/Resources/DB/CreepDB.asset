@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0bed31a14fc5e4aaf71896868100fa, type: 3}
+  m_Name: CreepDB
+  m_EditorClassIdentifier: 
+  objList:
+  - {fileID: 4552922800852751187, guid: e32f629687923734ab5257fb20329001, type: 3}
+  - {fileID: 5344430278878342948, guid: 653ece122aaf13346aa44587b4680e5f, type: 3}
+  - {fileID: 6496121421698897097, guid: 4f17aaade8b00cb45b433db1888d7f1b, type: 3}
+  - {fileID: 545606024688039679, guid: e9bf92dc64e0f2b459fb9c042d27b246, type: 3}
+  - {fileID: 4426625341449235416, guid: bab5a7fbd1aa28b4cbcd00cc9e192ac7, type: 3}
+  - {fileID: 2742920584633310485, guid: d4b68d1723015a543ada6ab7b2981258, type: 3}
+  creepList:
+  - {fileID: 7044314838751476228, guid: e32f629687923734ab5257fb20329001, type: 3}
+  - {fileID: 5635865641724719754, guid: 653ece122aaf13346aa44587b4680e5f, type: 3}
+  - {fileID: 6395468179689261180, guid: 4f17aaade8b00cb45b433db1888d7f1b, type: 3}
+  - {fileID: 1164782603235538845, guid: e9bf92dc64e0f2b459fb9c042d27b246, type: 3}
+  - {fileID: 8127611929265688845, guid: bab5a7fbd1aa28b4cbcd00cc9e192ac7, type: 3}
+  - {fileID: 6341546783571491634, guid: d4b68d1723015a543ada6ab7b2981258, type: 3}
+  copiedFromOldDB: 0
